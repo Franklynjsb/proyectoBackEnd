@@ -12,6 +12,8 @@ public class dtoPersona {
     @NotBlank
     private String img;
 
+    //Cosntructor
+    
     public dtoPersona() {
     }
 
@@ -22,6 +24,8 @@ public class dtoPersona {
         this.img = img;
     }
 
+    //Getter y Setter
+    
     public String getNombre() {
         return nombre;
     }
