@@ -20,5 +20,4 @@ public class JwtEntryPoint implements AuthenticationEntryPoint {
         logger.error("Falló el metodo comence");
         response.sendError(HttpServletResponse.SC_UNAUTHORIZED);
     }
-
 }
